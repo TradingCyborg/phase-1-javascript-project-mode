@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philosopher Quotes App</title>
+    <!-- Include your CSS and JavaScript files here -->
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <style>
+        /* Add your existing CSS here */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: #161418;
+            color: #eee;
+            user-select: none;
+        }
+        /* ... your existing CSS rules ... */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Philosopher Quotes</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search for a philosopher">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <section id="quote-section">
+            <div class="nft">
+                <hr>
+                <div class="main">
+                    <!-- Placeholder for displaying quotes -->
+                    <p class="description">"The quote goes here."</p>
+                    <img src="philosopher_image.jpg" alt="Philosopher Image" class="tokenImage">
+                    <div class="tokenInfo">
+                        <div class="price">Price: <ins>0.01 ETH</ins></div>
+                        <div class="duration">Duration: <ins>3 days</ins></div>
+                    </div>
+                    <div class="creator">
+                        <span>Created by <ins>Your Name</ins></span>
+                        <div class="wrapper">
+                            <img src="creator_image.jpg" alt="Creator Image">
+                        </div>
+                    </div>
+                </div>
+                <!-- Placeholder for like/dislike buttons -->
+                <button class="like-button">Like</button>
+                <button class="dislike-button">Dislike</button>
+                <button class="add-comment-button">Add Comment</button>
+                <!-- Placeholder for displaying comments -->
+                <div class="comments">
+                    <!-- Comments will be displayed here -->
+                </div>
+                <!-- Placeholder for adding comments -->
+                <form class="comment-form">
+                    <input type="text" class="comment-input" placeholder="Add a comment">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <!-- Add more quote placeholders as needed -->
+        </section>
+    </main>
+</body>
+</html>
