@@ -23,12 +23,11 @@ function fetchAndDisplayQuotes() {
 // Function to display quotes on the webpage
 function displayQuotes(quotes) {
     const quoteSection = document.getElementById('quote-section');
-
+var number=1
     quotes.forEach((quote) => {
         const quoteElement = document.createElement('div');
         quoteElement.classList.add('quote');
-        quoteElement.innerHTML = `<p>"${quote.text}" - ${quote.author}</p>`;
-
+        quoteElement.innerHTML = `<p>${number++} - "${quote.text}" - ${quote.author}</p>`;
         // Append the quote to the quote section
         quoteSection.appendChild(quoteElement);
     });
