@@ -59,3 +59,5 @@ document.querySelector('#dislike-button').addEventListener('click', function() {
 document.addEventListener('DOMContentLoaded', function() {
     // Your code to fetch quotes, set up event listeners, and populate the page
 });
+const sentenceContainers = document.querySelectorAll('.sentence-container');
+
